@@ -15,7 +15,7 @@ public class FindAllExercises extends SimpleFileVisitor <Path> {
     @Override
     public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) {
         if(!dir.equals(Paths.get("/home/jonatasdev/IdeaProjects/JavaExercise/src/STUDYJAVA/exercises"))) {
-            System.out.println("\n[DIRETORIO] " + dir.getFileName());
+            System.out.println("\n[DIRETORIOO] " + dir.getFileName());
         }
         return FileVisitResult.CONTINUE;
     }
